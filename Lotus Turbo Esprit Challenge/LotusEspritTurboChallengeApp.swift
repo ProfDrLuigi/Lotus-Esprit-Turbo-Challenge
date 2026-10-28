@@ -1,6 +1,6 @@
 //
-//  Lotus_Turbo_Esprit_ChallengenApp.swift
-//  Lotus Turbo Esprit Challengen
+//  LotusEspritTurboChallengeApp.swift
+//  Lotus Esprit Turbo Challenge
 //
 //  Created by Prof. Dr. Luigi on 22.10.26.
 //
@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct LotusTurboEspritChallengeApp: App {
+struct LotusEspritTurboChallengeApp: App {
     init() {
         if CommandLine.arguments.count==3,CommandLine.arguments[1]=="--lotus-derive" {
             NSApplication.shared.setActivationPolicy(.prohibited)

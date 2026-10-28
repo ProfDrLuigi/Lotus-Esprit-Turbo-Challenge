@@ -7,16 +7,16 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		2AB978DD308AA993007378EF /* Lotus Turbo Esprit Challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lotus Turbo Esprit Challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AB978DD308AA993007378EF /* Lotus Esprit Turbo Challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lotus Esprit Turbo Challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		C09D00010000000000000083 /* Exceptions for "Lotus Turbo Esprit Challenge" folder in "Lotus Turbo Esprit Challenge" target */ = {
+		C09D00010000000000000083 /* Exceptions for "Lotus Esprit Turbo Challenge" folder in "Lotus Esprit Turbo Challenge" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				GameAssetts,
 			);
-			target = 2AB978DC308AA993007378EF /* Lotus Turbo Esprit Challenge */;
+			target = 2AB978DC308AA993007378EF /* Lotus Esprit Turbo Challenge */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
@@ -26,14 +26,15 @@
 			path = Server;
 			sourceTree = "<group>";
 		};
-		2AB978DF308AA993007378EF /* Lotus Turbo Esprit Challenge */ = {
+		2AB978DF308AA993007378EF /* Lotus Esprit Turbo Challenge */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				C09D00010000000000000083 /* Exceptions for "Lotus Turbo Esprit Challenge" folder in "Lotus Turbo Esprit Challenge" target */,
+				C09D00010000000000000083 /* Exceptions for "Lotus Esprit Turbo Challenge" folder in "Lotus Esprit Turbo Challenge" target */,
 			);
 			explicitFolders = (
 				GameAssetts,
 			);
+			name = "Lotus Esprit Turbo Challenge";
 			path = "Lotus Turbo Esprit Challenge";
 			sourceTree = "<group>";
 		};
@@ -54,7 +55,7 @@
 			isa = PBXGroup;
 			children = (
 				2AB9652B308FCE96007378EF /* Server */,
-				2AB978DF308AA993007378EF /* Lotus Turbo Esprit Challenge */,
+				2AB978DF308AA993007378EF /* Lotus Esprit Turbo Challenge */,
 				2AB978DE308AA993007378EF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -62,7 +63,7 @@
 		2AB978DE308AA993007378EF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2AB978DD308AA993007378EF /* Lotus Turbo Esprit Challenge.app */,
+				2AB978DD308AA993007378EF /* Lotus Esprit Turbo Challenge.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -70,9 +71,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2AB978DC308AA993007378EF /* Lotus Turbo Esprit Challenge */ = {
+		2AB978DC308AA993007378EF /* Lotus Esprit Turbo Challenge */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2AB978E8308AA993007378EF /* Build configuration list for PBXNativeTarget "Lotus Turbo Esprit Challenge" */;
+			buildConfigurationList = 2AB978E8308AA993007378EF /* Build configuration list for PBXNativeTarget "Lotus Esprit Turbo Challenge" */;
 			buildPhases = (
 				2AB978D9308AA993007378EF /* Sources */,
 				2AB978DA308AA993007378EF /* Frameworks */,
@@ -85,13 +86,13 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				2AB978DF308AA993007378EF /* Lotus Turbo Esprit Challenge */,
+				2AB978DF308AA993007378EF /* Lotus Esprit Turbo Challenge */,
 			);
-			name = "Lotus Turbo Esprit Challenge";
+			name = "Lotus Esprit Turbo Challenge";
 			packageProductDependencies = (
 			);
-			productName = "Lotus Turbo Esprit Challengen";
-			productReference = 2AB978DD308AA993007378EF /* Lotus Turbo Esprit Challenge.app */;
+			productName = "Lotus Esprit Turbo Challenge";
+			productReference = 2AB978DD308AA993007378EF /* Lotus Esprit Turbo Challenge.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -109,7 +110,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 2AB978D8308AA993007378EF /* Build configuration list for PBXProject "Lotus Turbo Esprit Challenge" */;
+			buildConfigurationList = 2AB978D8308AA993007378EF /* Build configuration list for PBXProject "Lotus Esprit Turbo Challenge" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -124,7 +125,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2AB978DC308AA993007378EF /* Lotus Turbo Esprit Challenge */,
+				2AB978DC308AA993007378EF /* Lotus Esprit Turbo Challenge */,
 			);
 		};
 /* End PBXProject section */
@@ -331,7 +332,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 89;
+				CURRENT_PROJECT_VERSION = 90;
 				ENABLE_APP_SANDBOX = NO;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -349,7 +350,7 @@
 					"$(inherited)",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "sascha.com.lotus-turbo-challenge";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lotus-turbo-challenge";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -371,7 +372,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 89;
+				CURRENT_PROJECT_VERSION = 90;
 				ENABLE_APP_SANDBOX = NO;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -389,7 +390,7 @@
 					"$(inherited)",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "sascha.com.lotus-turbo-challenge";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lotus-turbo-challenge";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -407,7 +408,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2AB978D8308AA993007378EF /* Build configuration list for PBXProject "Lotus Turbo Esprit Challenge" */ = {
+		2AB978D8308AA993007378EF /* Build configuration list for PBXProject "Lotus Esprit Turbo Challenge" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2AB978E6308AA993007378EF /* Debug */,
@@ -416,7 +417,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2AB978E8308AA993007378EF /* Build configuration list for PBXNativeTarget "Lotus Turbo Esprit Challenge" */ = {
+		2AB978E8308AA993007378EF /* Build configuration list for PBXNativeTarget "Lotus Esprit Turbo Challenge" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2AB978E9308AA993007378EF /* Debug */,
