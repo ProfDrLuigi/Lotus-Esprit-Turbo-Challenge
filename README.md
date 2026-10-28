@@ -1,5 +1,8 @@
 # Lotus Esprit Turbo Challenge for macOS
 
+<img width="1137" height="829" alt="image" src="https://github.com/user-attachments/assets/a84303a8-1883-421d-9dd2-fe50833f127b" />
+<img width="1137" height="829" alt="image" src="https://github.com/user-attachments/assets/d843f4a3-56da-4504-a22d-3206c74ba059" />
+
 A native macOS port of the Amiga racing game **Lotus Esprit Turbo Challenge**,
 with the original gameplay, optional HD graphics and music, and online
 multiplayer.
