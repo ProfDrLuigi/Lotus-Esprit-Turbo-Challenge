@@ -1,0 +1,1358 @@
+{
+  "version": 3,
+  "scale": 4,
+  "objects": [
+    {
+      "id": "car-0",
+      "path": "Objects/car-0.png"
+    },
+    {
+      "id": "car-1",
+      "path": "Objects/car-1.png"
+    },
+    {
+      "id": "car-2",
+      "path": "Objects/car-2.png"
+    },
+    {
+      "id": "car-3",
+      "path": "Objects/car-3.png"
+    },
+    {
+      "id": "car-4",
+      "path": "Objects/car-4.png"
+    },
+    {
+      "id": "car-5",
+      "path": "Objects/car-5.png"
+    },
+    {
+      "id": "car-6",
+      "path": "Objects/car-6.png"
+    },
+    {
+      "id": "car-7",
+      "path": "Objects/car-7.png"
+    },
+    {
+      "id": "car-8",
+      "path": "Objects/car-8.png"
+    },
+    {
+      "id": "world-80",
+      "path": "Objects/world-80.png"
+    },
+    {
+      "id": "world-81",
+      "path": "Objects/world-81.png"
+    },
+    {
+      "id": "world-82",
+      "path": "Objects/world-82.png"
+    },
+    {
+      "id": "world-82-right",
+      "path": "Objects/world-82-right.png"
+    },
+    {
+      "id": "world-83",
+      "path": "Objects/world-83.png"
+    },
+    {
+      "id": "world-84",
+      "path": "Objects/world-84.png"
+    },
+    {
+      "id": "world-85",
+      "path": "Objects/world-85.png"
+    },
+    {
+      "id": "world-86",
+      "path": "Objects/world-86.png"
+    },
+    {
+      "id": "world-87",
+      "path": "Objects/world-87.png"
+    },
+    {
+      "id": "world-89",
+      "path": "Objects/world-89.png"
+    },
+    {
+      "id": "world-8a",
+      "path": "Objects/world-8a.png"
+    },
+    {
+      "id": "world-8b",
+      "path": "Objects/world-8b.png"
+    },
+    {
+      "id": "world-8c",
+      "path": "Objects/world-8c.png"
+    },
+    {
+      "id": "world-8f",
+      "path": "Objects/world-8f.png"
+    },
+    {
+      "id": "world-90",
+      "path": "Objects/world-90.png"
+    },
+    {
+      "id": "world-91",
+      "path": "Objects/world-91.png"
+    },
+    {
+      "id": "world-94",
+      "path": "Objects/world-94.png"
+    },
+    {
+      "id": "world-95",
+      "path": "Objects/world-95.png"
+    },
+    {
+      "id": "world-96",
+      "path": "Objects/world-96.png"
+    },
+    {
+      "id": "world-97",
+      "path": "Objects/world-97.png"
+    },
+    {
+      "id": "world-98",
+      "path": "Objects/world-98.png"
+    },
+    {
+      "id": "world-99",
+      "path": "Objects/world-99.png"
+    },
+    {
+      "id": "world-9a",
+      "path": "Objects/world-9a.png"
+    },
+    {
+      "id": "world-9b",
+      "path": "Objects/world-9b.png"
+    },
+    {
+      "id": "world-9c",
+      "path": "Objects/world-9c.png"
+    },
+    {
+      "id": "world-9d",
+      "path": "Objects/world-9d.png"
+    },
+    {
+      "id": "world-9e",
+      "path": "Objects/world-9e.png"
+    },
+    {
+      "id": "world-9f",
+      "path": "Objects/world-9f.png"
+    },
+    {
+      "id": "world-a0",
+      "path": "Objects/world-a0.png"
+    },
+    {
+      "id": "world-a1",
+      "path": "Objects/world-a1.png"
+    },
+    {
+      "id": "world-a2",
+      "path": "Objects/world-a2.png"
+    },
+    {
+      "id": "world-a3",
+      "path": "Objects/world-a3.png"
+    },
+    {
+      "id": "world-a5",
+      "path": "Objects/world-a5.png"
+    },
+    {
+      "id": "world-a7",
+      "path": "Objects/world-a7.png"
+    },
+    {
+      "id": "world-a9",
+      "path": "Objects/world-a9.png"
+    },
+    {
+      "id": "world-aa",
+      "path": "Objects/world-aa.png"
+    },
+    {
+      "id": "world-ab",
+      "path": "Objects/world-ab.png"
+    },
+    {
+      "id": "world-82-banner",
+      "path": "Objects/start-banner.png"
+    }
+  ],
+  "menus": [
+    {
+      "mode": 10,
+      "rect": [
+        95,
+        38,
+        130,
+        132
+      ],
+      "path": "Menus/badge.png",
+      "reference": "References/badge.png"
+    },
+    {
+      "mode": 11,
+      "rect": [
+        20,
+        20,
+        280,
+        180
+      ],
+      "path": "Menus/front-car.png",
+      "reference": "References/front-car.png"
+    },
+    {
+      "mode": 20,
+      "rect": [
+        50,
+        18,
+        262,
+        77
+      ],
+      "path": "Menus/spec-car.png",
+      "reference": "References/spec-car.png"
+    },
+    {
+      "mode": 22,
+      "rect": [
+        80,
+        126,
+        135,
+        56
+      ],
+      "path": "Menus/dimension-car.png",
+      "reference": "References/dimension-car.png"
+    },
+    {
+      "mode": 23,
+      "rect": [
+        202,
+        70,
+        110,
+        62
+      ],
+      "path": "Menus/cockpit-angle.png",
+      "reference": "References/cockpit-angle.png"
+    },
+    {
+      "mode": 23,
+      "rect": [
+        202,
+        134,
+        110,
+        58
+      ],
+      "path": "Menus/cockpit-front.png",
+      "reference": "References/cockpit-front.png"
+    }
+  ],
+  "files": [
+    {
+      "path": "Objects/car-0.png",
+      "width": 481,
+      "height": 251,
+      "sha256": "3aac19c6ad7c83e3ad496d43e80d6c3c43b1a1320f7ede13c815f359878210ee"
+    },
+    {
+      "path": "Objects/car-1.png",
+      "width": 468,
+      "height": 255,
+      "sha256": "6304a63552bea8ddfceda40edc4befaf3bf94b89acd396880e9ec3f44eafddbe"
+    },
+    {
+      "path": "Objects/car-2.png",
+      "width": 457,
+      "height": 256,
+      "sha256": "9efc143fb006702dbad1635831123d4c0ce7afb615bd5477c62a550b1ffdf241"
+    },
+    {
+      "path": "Objects/car-3.png",
+      "width": 456,
+      "height": 262,
+      "sha256": "883518e825afda4a05c852452686d5e37d2c2a008110463f4aa1adbd6ec4a4da"
+    },
+    {
+      "path": "Objects/car-4.png",
+      "width": 468,
+      "height": 265,
+      "sha256": "356e0844cadf3a563041924e9b75332513f0b5e99f700622ea927606ed7f14aa"
+    },
+    {
+      "path": "Objects/car-5.png",
+      "width": 449,
+      "height": 264,
+      "sha256": "af50398d853ceecf5ca4947bc0675f6d6bd8f094970bf224044dcf8f0cc0c727"
+    },
+    {
+      "path": "Objects/car-6.png",
+      "width": 471,
+      "height": 255,
+      "sha256": "2b2f9b902ec1234e48ce750eb1278e3e59615141ef9640f05508d79b62452827"
+    },
+    {
+      "path": "Objects/car-7.png",
+      "width": 466,
+      "height": 251,
+      "sha256": "3cf835b9edf996d53c00928aefaeea94372b09715e42e1c915c3891acc586829"
+    },
+    {
+      "path": "Objects/car-8.png",
+      "width": 464,
+      "height": 250,
+      "sha256": "197f5d43daa8fbf8ab39c5f9b79d857de18c102c2de6b6b3f4f895652c7ec658"
+    },
+    {
+      "path": "Objects/world-80.png",
+      "width": 138,
+      "height": 107,
+      "sha256": "63dc49f49bc86d98bd25e160fe68afa2b5bb16128c1a59a6fa203c6eddcf02ac"
+    },
+    {
+      "path": "Objects/world-81.png",
+      "width": 137,
+      "height": 107,
+      "sha256": "73f5692e0205ac8308f0ac12f1e904d1f0d1cdda809b7f8946d967f84ab5e378"
+    },
+    {
+      "path": "Objects/world-82.png",
+      "width": 24,
+      "height": 161,
+      "sha256": "6e2cfd020d84b148962d2d5c2f783f923d29779f391a19ed38055c6076ca13ce"
+    },
+    {
+      "path": "Objects/world-82-right.png",
+      "width": 167,
+      "height": 26,
+      "sha256": "94a2d7eba877ff1211dcc8457073a78b90d8681b583039923b737d4c68f5036d"
+    },
+    {
+      "path": "Objects/world-83.png",
+      "width": 162,
+      "height": 117,
+      "sha256": "5cc4424d0360c18e528ce3c01af096a5808c5269b470ea819782d4f935577170"
+    },
+    {
+      "path": "Objects/world-84.png",
+      "width": 165,
+      "height": 120,
+      "sha256": "e38753ebdb19c826e05760363363a9aa05d6ca1cd56e76a582fcffa31916031d"
+    },
+    {
+      "path": "Objects/world-85.png",
+      "width": 171,
+      "height": 83,
+      "sha256": "cf0c25b86273b501666082fee564a358a315513ac170eb01305cae4b6ad9fbce"
+    },
+    {
+      "path": "Objects/world-86.png",
+      "width": 143,
+      "height": 159,
+      "sha256": "6addfd8b74b607b50f8d95976ee7571242725807df2f510d53e1f07b7a5702c3"
+    },
+    {
+      "path": "Objects/world-87.png",
+      "width": 158,
+      "height": 172,
+      "sha256": "a56f6572bc66825c87a1ecf18252a324f10a87727396711b7bd1808aca6e2d0b"
+    },
+    {
+      "path": "Objects/world-89.png",
+      "width": 167,
+      "height": 123,
+      "sha256": "3f4f5d69c962a52ffbcb0b354289e3fb9263a808103dfef1a4bb5eacc2af5968"
+    },
+    {
+      "path": "Objects/world-8a.png",
+      "width": 159,
+      "height": 170,
+      "sha256": "196a6cfead25c9e37c18eab9ac4e3b8194fc22d95cf8341e0f36cb4b94c19c0b"
+    },
+    {
+      "path": "Objects/world-8b.png",
+      "width": 167,
+      "height": 77,
+      "sha256": "fbc4c565cfacf01665824d98873e7fcee6b1dd0f73cce97815ebf8440f52328d"
+    },
+    {
+      "path": "Objects/world-8c.png",
+      "width": 168,
+      "height": 79,
+      "sha256": "071c7b8e8fe45e2982ba7e2d6d428fe5eb0499aa656fc69538bbd42d2b1a7642"
+    },
+    {
+      "path": "Objects/world-8f.png",
+      "width": 175,
+      "height": 171,
+      "sha256": "5c4bb7c4e722f97bd7cd131f2eb78dbcdc80c7ba4170bc965524a1fc337c3598"
+    },
+    {
+      "path": "Objects/world-90.png",
+      "width": 172,
+      "height": 166,
+      "sha256": "ae781ee20b49dd476ab30d4a5258ac2847e3024a1b6dbb2191a2dc7d193ac4d4"
+    },
+    {
+      "path": "Objects/world-91.png",
+      "width": 157,
+      "height": 166,
+      "sha256": "6db769c548b83c1126006002439651920f7d1486eae338c1ae44c461073b1aa9"
+    },
+    {
+      "path": "Objects/world-94.png",
+      "width": 1405,
+      "height": 1058,
+      "sha256": "b747a9272ec92ef235bc9061899d48c7b03648e0a8c5a4ca3cc66ae1bc63072c"
+    },
+    {
+      "path": "Objects/world-95.png",
+      "width": 173,
+      "height": 163,
+      "sha256": "d508f950e4ef20fd5a03da7f5de3756ce2d2ee032ca02c608b7ae8569b317538"
+    },
+    {
+      "path": "Objects/world-96.png",
+      "width": 175,
+      "height": 93,
+      "sha256": "2786985ab5911c3a64ee6d4422be8cc0c03ecf64c9fcb4cd70b8cc0d9899597f"
+    },
+    {
+      "path": "Objects/world-97.png",
+      "width": 146,
+      "height": 158,
+      "sha256": "a1b2490b165526aa1037461db5528ada1c365a6d8dcca6110385fb0221b9a74e"
+    },
+    {
+      "path": "Objects/world-98.png",
+      "width": 167,
+      "height": 148,
+      "sha256": "47d6ba8430c5e12a7f6b4c7fef784742d5ce2e57c0cd69f8b3b131800ca546d6"
+    },
+    {
+      "path": "Objects/world-99.png",
+      "width": 116,
+      "height": 172,
+      "sha256": "27f62e024b4cf135b3a8fa5a284efaf65a581dec6aa54cdfc73b650e66ffc669"
+    },
+    {
+      "path": "Objects/world-9a.png",
+      "width": 167,
+      "height": 140,
+      "sha256": "e2759ae8546278da38d0b3fbcec6fd3c11da61bd6202649a3fe4002adac2bbd7"
+    },
+    {
+      "path": "Objects/world-9b.png",
+      "width": 173,
+      "height": 114,
+      "sha256": "d8ff553568a0813123760300161b828213875c0ff75db9574176d34b4b202d61"
+    },
+    {
+      "path": "Objects/world-9c.png",
+      "width": 171,
+      "height": 123,
+      "sha256": "36c470669d15a81369a5a4f1b4131e9293aeee9b74ead0899987f4a4eca40f6f"
+    },
+    {
+      "path": "Objects/world-9d.png",
+      "width": 79,
+      "height": 170,
+      "sha256": "f84c582105b7f114bed31df2c9943d94c555374a16456a0db55c8cc2ed62bc0b"
+    },
+    {
+      "path": "Objects/world-9e.png",
+      "width": 117,
+      "height": 172,
+      "sha256": "39bf325a039c06c63fa2d2f918e317ce3cd631c094050523946cde161378151e"
+    },
+    {
+      "path": "Objects/world-9f.png",
+      "width": 165,
+      "height": 106,
+      "sha256": "acbdf4a99a1e0c6d15e5f1fada9419165a86dd3f3b635af7f5f6268961f16a1c"
+    },
+    {
+      "path": "Objects/world-a0.png",
+      "width": 1225,
+      "height": 1284,
+      "sha256": "ff0b1dbc980bcfd5b1859362c510fd18f54615911ed371d43b15c9b62a102714"
+    },
+    {
+      "path": "Objects/world-a1.png",
+      "width": 1232,
+      "height": 1277,
+      "sha256": "83bc0248b5a6632b5e8d02c0c1dc3c7cf71b8a0f0f3ec9d07c2c186e843d7836"
+    },
+    {
+      "path": "Objects/world-a2.png",
+      "width": 2114,
+      "height": 234,
+      "sha256": "c1b17824ba2709af93fbb650d5dda27813d3b51245b5d38692c504854e391760"
+    },
+    {
+      "path": "Objects/world-a3.png",
+      "width": 164,
+      "height": 29,
+      "sha256": "3f26de6315f38804b395470bf4d5e1013e808354afdf2991e6e2de10ea34eb5d"
+    },
+    {
+      "path": "Objects/world-a5.png",
+      "width": 186,
+      "height": 180,
+      "sha256": "f37d269443cdf8cd7501a6335f2a4be14079936b9d6255a7bdfb8221d7046281"
+    },
+    {
+      "path": "Objects/world-a7.png",
+      "width": 99,
+      "height": 178,
+      "sha256": "eee9d002792de97bf8182167d6aecb4a4e8869fa2a73a47b83b918509ccb6df8"
+    },
+    {
+      "path": "Objects/world-a9.png",
+      "width": 168,
+      "height": 125,
+      "sha256": "c9cbf5b90690f307efb9119fdc541b102c480c73f91884df697708f8f56608c3"
+    },
+    {
+      "path": "Objects/world-aa.png",
+      "width": 168,
+      "height": 143,
+      "sha256": "e1b04c8d89a85821d75f0357682e3a21a305ab8f9e2eab200983c97d76449530"
+    },
+    {
+      "path": "Objects/world-ab.png",
+      "width": 172,
+      "height": 150,
+      "sha256": "ad61ed091f02c1f761af214a00a30203500ea77c6006a018a0eb853d1a47bc00"
+    },
+    {
+      "path": "Menus/badge.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "e04b5868d84dcc0af1054c6e5aaffc7f0fa78c4ca873609a13af7a168cbcab8c"
+    },
+    {
+      "path": "References/badge.png",
+      "width": 130,
+      "height": 132,
+      "sha256": "65217dbcd66293fc38344d81de30cfeb0075205a1b38fbe16495ea967144ff6d"
+    },
+    {
+      "path": "Menus/front-car.png",
+      "width": 546,
+      "height": 350,
+      "sha256": "cf0957530fab1af05a64554e74ad436e08aa9e7011fe57d560164432fd951fc8"
+    },
+    {
+      "path": "References/front-car.png",
+      "width": 280,
+      "height": 180,
+      "sha256": "75c4c2a6588e5f0f30b3aae4be697d63d722826711e818f3b1b41881a5a965ba"
+    },
+    {
+      "path": "Menus/spec-car.png",
+      "width": 2171,
+      "height": 638,
+      "sha256": "446053c5a750533b5964fe8465055c5e88538151f2fb537e466a9a768a79a749"
+    },
+    {
+      "path": "References/spec-car.png",
+      "width": 262,
+      "height": 77,
+      "sha256": "e16bc8ce2f9e3f515d7b78eff17e5b23e2228dbdc5410136cc14548108267013"
+    },
+    {
+      "path": "Menus/dimension-car.png",
+      "width": 1774,
+      "height": 736,
+      "sha256": "e42b7713d066aba76ae62031fe8f62253b32bdb8ace037d041d49ae5ea5691e0"
+    },
+    {
+      "path": "References/dimension-car.png",
+      "width": 135,
+      "height": 56,
+      "sha256": "422b43aca50013b1174db891d545577d9ab210374da3a6224e7baa74c256fef7"
+    },
+    {
+      "path": "Menus/cockpit-angle.png",
+      "width": 546,
+      "height": 307,
+      "sha256": "817e70972bbe2b0b5eec631eb90f35ed7b388dac594577ba441cf4b3ea5d1d2a"
+    },
+    {
+      "path": "References/cockpit-angle.png",
+      "width": 110,
+      "height": 62,
+      "sha256": "5afebf1ea51f1287953b4154f941406283ae506e38ce7a642061d44fd7b2d298"
+    },
+    {
+      "path": "Menus/cockpit-front.png",
+      "width": 545,
+      "height": 287,
+      "sha256": "53f8d5e2eb0afcb9cd991b676f587a96580bfc0865ffcead2655d7c8b1e8d154"
+    },
+    {
+      "path": "References/cockpit-front.png",
+      "width": 110,
+      "height": 58,
+      "sha256": "0fca36541d19d521a61523a94f29a110a1204776cf1ba7521cb6c310501bb807"
+    },
+    {
+      "path": "Surfaces/asphalt.png",
+      "width": 1024,
+      "height": 1024,
+      "sha256": "4cf31562b41a7762054dfbbdd49cacb0ae849bfa287ef1c1e8ba11b50e196155"
+    },
+    {
+      "path": "Surfaces/grass.png",
+      "width": 1024,
+      "height": 1024,
+      "sha256": "f8b52e43c6246c076821f8ce1ce337ee406e6e250837f6b048772fd7878a20fc"
+    },
+    {
+      "path": "Surfaces/sand.png",
+      "width": 1024,
+      "height": 1024,
+      "sha256": "ff0e16319b6d669aaadf15b9281676d1b738d413ac7437cfbdb5c708ad8e8b35"
+    },
+    {
+      "path": "Surfaces/snow.png",
+      "width": 1024,
+      "height": 1024,
+      "sha256": "050f0429b1486a9c53ee545f2bc2f90a9008dc0b1e537822fcde6935edbeeb98"
+    },
+    {
+      "path": "Menus/garage.png",
+      "width": 1280,
+      "height": 384,
+      "sha256": "5d7d3b10725e32005d2551630c692f8486707e06ce147b73a755c6ec965bbac3"
+    },
+    {
+      "path": "References/garage.png",
+      "width": 320,
+      "height": 96,
+      "sha256": "a46055e777067ec42d91b6c53dbeb3d6d192425b5ca37da7cbf4405f6a43c693"
+    },
+    {
+      "path": "Backdrops/a57dc22ffbc376ae.png",
+      "width": 5120,
+      "height": 128,
+      "sha256": "788b4ea60f36f53e1d1f22568a9412ccb8c417d180e93adc03e92ca0f8108fda"
+    },
+    {
+      "path": "Backdrops/4357c3969906db1b.png",
+      "width": 5120,
+      "height": 128,
+      "sha256": "770f8be4fa1206794df0ad2dedef6c001e31cd56aaa5d4f0c3647f0444a4151b"
+    },
+    {
+      "path": "Backdrops/fab3a779fbb7f385.png",
+      "width": 5120,
+      "height": 128,
+      "sha256": "a33bc900366fe1fac7d77c745c1f5c50804e7fcd233012449520767681aaf452"
+    },
+    {
+      "path": "Backdrops/6d99d6929891347c.png",
+      "width": 5120,
+      "height": 128,
+      "sha256": "8c1fa9e984501175b830981c41cdf7b49bdbae852379ea5d365ae3928dcbcbb8"
+    },
+    {
+      "path": "Backdrops/ed9b0c79f4422bac.png",
+      "width": 5120,
+      "height": 128,
+      "sha256": "5a51aec6c4eaa490cf00042f3a9f21c82b2a40b6446bb461747b8e3b47bb60f0"
+    },
+    {
+      "path": "Backdrops/79438f0019504177.png",
+      "width": 5120,
+      "height": 128,
+      "sha256": "44831581a960f8306cac5e8bfbae0552255cc3340805c85bbcd9ad03cf9db5d1"
+    },
+    {
+      "path": "Backdrops/1de193e47f315730.png",
+      "width": 5120,
+      "height": 128,
+      "sha256": "3194570aa8ca1d89e3c0b1a5255795f259d55d87eae46194491ed0b53a1638ca"
+    },
+    {
+      "path": "Backdrops/72811009f14e5476.png",
+      "width": 5120,
+      "height": 128,
+      "sha256": "03e4bdd5aacd009b1930c7eb7707996bec4e83ed022f25571a0cc2f013679522"
+    },
+    {
+      "path": "Backdrops/b86520495c1bc4ad.png",
+      "width": 5120,
+      "height": 128,
+      "sha256": "4f0c2c2001182f1f9c91aecf85300e1c6b96a83c0d3b43e2a2917c8d6e8ce3fa"
+    },
+    {
+      "path": "Backdrops/49a6cc0aa2a7cef7.png",
+      "width": 5120,
+      "height": 128,
+      "sha256": "1e12b73d4297c01da625a4213927f7a21ae99e8a0d74b7361e420718a9745957"
+    },
+    {
+      "path": "Panels/mode-10.png",
+      "width": 2560,
+      "height": 1664,
+      "sha256": "3eab09bfb8750cc34689d9c8909c5cf8be59a6a47a4c30607fc3b28a9710b6ca"
+    },
+    {
+      "path": "References/panel-10.png",
+      "width": 320,
+      "height": 200,
+      "sha256": "09b8034ca7d83d1d06f66d1389064d4b7c787450902778c7dacbbbff79269715"
+    },
+    {
+      "path": "Panels/mode-20.png",
+      "width": 2560,
+      "height": 1664,
+      "sha256": "006ae0ee207b0acdb27feda4ec5877abce2c9e46f1fdcb12226c307ac8176bdd"
+    },
+    {
+      "path": "References/panel-20.png",
+      "width": 320,
+      "height": 200,
+      "sha256": "5ff9446eeff10719b37ab727096d5d20f661427dcf876ddeab9d37633bd9575d"
+    },
+    {
+      "path": "Panels/mode-21.png",
+      "width": 2560,
+      "height": 1664,
+      "sha256": "3e5c012aa242df0a3ffe443338f36d5dc71d8f793ec2fe857d348388f2448ef4"
+    },
+    {
+      "path": "References/panel-21.png",
+      "width": 320,
+      "height": 200,
+      "sha256": "3e6899fa3db0a48c79af81280eedc69dd286b4047fb873bac1324086ef90815a"
+    },
+    {
+      "path": "Panels/mode-22.png",
+      "width": 2560,
+      "height": 1664,
+      "sha256": "dcbf6bfbaa520ca9cd17aa2b9b822e4a9f98108fae8a0e5770d2162946698ca8"
+    },
+    {
+      "path": "References/panel-22.png",
+      "width": 320,
+      "height": 120,
+      "sha256": "251adc02c680cbd945bf8fe85d8c21bdf2f5dd41f53bdacda9a3adff343c0ac7"
+    },
+    {
+      "path": "Panels/mode-23.png",
+      "width": 2560,
+      "height": 1664,
+      "sha256": "baf1aa7853cb0f22ceaeb9d85986ccf0bcf6552ff9a30c93f30edd87f9240d41"
+    },
+    {
+      "path": "References/panel-23.png",
+      "width": 320,
+      "height": 200,
+      "sha256": "1ce7dba87aae517890ed2f5a1f28c32165be96f6ffe4615103c7ea6b13bb9944"
+    },
+    {
+      "path": "Panels/radio.png",
+      "width": 2560,
+      "height": 1664,
+      "sha256": "6c7df683c037200dab6c6a952515eb26eb65f8ff2f349996343786c8f4388910"
+    },
+    {
+      "path": "References/radio.png",
+      "width": 320,
+      "height": 208,
+      "sha256": "598896aa6020e72c14ae23086ab6c4e82f4626b171c5a6f9741045f967b93653"
+    },
+    {
+      "path": "Menus/garage-arm-0-1.png",
+      "width": 108,
+      "height": 60,
+      "sha256": "622ed81849b4017af0fc9d32fdda5bf658d011d246c6a9830fed982c047d540e"
+    },
+    {
+      "path": "Menus/garage-arm-0-2.png",
+      "width": 108,
+      "height": 60,
+      "sha256": "7eeb5fdfd867156c1325087cbfd099b835c1d6ebe3f5dbfcd5d308f09268500e"
+    },
+    {
+      "path": "Menus/garage-arm-1-1.png",
+      "width": 60,
+      "height": 52,
+      "sha256": "0800bc65675b2673e2aadcc3612510d2b779cb5b28906c2798d74e8253c2ccda"
+    },
+    {
+      "path": "Menus/garage-arm-2-1.png",
+      "width": 60,
+      "height": 60,
+      "sha256": "b6d14086cbc6258b6cc4c61425471538870b0befca760d4d569048393548ff02"
+    },
+    {
+      "path": "Objects/start-banner.png",
+      "width": 1504,
+      "height": 144,
+      "sha256": "d9ecccb528eca2747d79f94c3f89a61a436d6e19d0303a07c4f751b9d9c471fb"
+    },
+    {
+      "path": "Surfaces/dry-grass.png",
+      "width": 1024,
+      "height": 1024,
+      "sha256": "6bf9e1eab306020eff4edc763d3b43629f0cc24bc913793d610ce17dd6bce6ef"
+    },
+    {
+      "path": "Surfaces/gravel.png",
+      "width": 1024,
+      "height": 1024,
+      "sha256": "834244697a217a01339f31346d8d3adde32cd8313ef9e3ea42b5fa14c35d8431"
+    },
+    {
+      "path": "Panels/MF.png",
+      "width": 2560,
+      "height": 1664,
+      "sha256": "d5d22b060a22ef3eb5ee2c6af8f08a9346fedc094b7469074edaa84cee4d0066"
+    }
+  ],
+  "surfaces": [
+    "Surfaces/asphalt.png",
+    "Surfaces/grass.png",
+    "Surfaces/sand.png",
+    "Surfaces/snow.png",
+    "Surfaces/dry-grass.png",
+    "Surfaces/gravel.png"
+  ],
+  "garage": "Menus/garage.png",
+  "garageReference": "References/garage.png",
+  "backdrops": [
+    {
+      "id": "a57dc22ffbc376ae",
+      "path": "Backdrops/a57dc22ffbc376ae.png",
+      "periodWidth": 3423,
+      "palette": [
+        4278190080,
+        4282664140,
+        4278190250,
+        4278190182,
+        4280427042,
+        4284900966,
+        4291611852,
+        4278207488,
+        4278225100,
+        4278212027,
+        4278207590,
+        4278198852,
+        4287137928,
+        4278190080,
+        4282664004,
+        4283791359,
+        4278190080,
+        4278190080,
+        4294967295,
+        4293839872,
+        4278190080,
+        4278190080,
+        4294967295,
+        4293839872,
+        4278190080,
+        4278233600,
+        4278242508,
+        4278190284,
+        4278190080,
+        4278233600,
+        4278242508,
+        4278190284
+      ]
+    },
+    {
+      "id": "4357c3969906db1b",
+      "path": "Backdrops/4357c3969906db1b.png",
+      "periodWidth": 3726,
+      "palette": [
+        4278190080,
+        4282664140,
+        4278190250,
+        4278190182,
+        4280427042,
+        4284900966,
+        4291611852,
+        4278207488,
+        4278225100,
+        4278190080,
+        4278190080,
+        4278190080,
+        4284909738,
+        4282672776,
+        4280435814,
+        4279334894,
+        4278190080,
+        4278190080,
+        4294967295,
+        4293839872,
+        4278190080,
+        4278190080,
+        4294967295,
+        4293839872,
+        4278190080,
+        4278233600,
+        4278242508,
+        4278190284,
+        4278190080,
+        4278233600,
+        4278242508,
+        4278190284
+      ]
+    },
+    {
+      "id": "fab3a779fbb7f385",
+      "path": "Backdrops/fab3a779fbb7f385.png",
+      "periodWidth": 3362,
+      "palette": [
+        4278190080,
+        4282664140,
+        4278190250,
+        4278190182,
+        4280427042,
+        4284900966,
+        4291611852,
+        4278207488,
+        4278225100,
+        4278190080,
+        4278190080,
+        4278190080,
+        4293831304,
+        4291594308,
+        4288238882,
+        4294932224,
+        4278190080,
+        4278190080,
+        4294967295,
+        4293839872,
+        4278190080,
+        4278190080,
+        4294967295,
+        4293839872,
+        4278190080,
+        4278233600,
+        4278242508,
+        4278190284,
+        4278190080,
+        4278233600,
+        4278242508,
+        4278190284
+      ]
+    },
+    {
+      "id": "6d99d6929891347c",
+      "path": "Backdrops/6d99d6929891347c.png",
+      "periodWidth": 3302,
+      "palette": [
+        4278190080,
+        4282664140,
+        4278190250,
+        4278190182,
+        4280427042,
+        4284900966,
+        4291611852,
+        4278207488,
+        4278190080,
+        4278190080,
+        4278190080,
+        4278190080,
+        4280440200,
+        4280435814,
+        4278203204,
+        4278238207,
+        4278190080,
+        4278190080,
+        4294967295,
+        4293839872,
+        4278190080,
+        4278190080,
+        4294967295,
+        4293839872,
+        4278190080,
+        4278233600,
+        4278242508,
+        4278190284,
+        4278190080,
+        4278233600,
+        4278242508,
+        4278190284
+      ]
+    },
+    {
+      "id": "ed9b0c79f4422bac",
+      "path": "Backdrops/ed9b0c79f4422bac.png",
+      "periodWidth": 3839,
+      "palette": [
+        4278190080,
+        4282664140,
+        4278190250,
+        4278190182,
+        4280427042,
+        4284900966,
+        4291611852,
+        4278207488,
+        4278225100,
+        4278190080,
+        4278190080,
+        4278190080,
+        4289366152,
+        4287129190,
+        4284892228,
+        4294949887,
+        4278190080,
+        4278190080,
+        4294967295,
+        4293839872,
+        4278190080,
+        4278190080,
+        4294967295,
+        4293839872,
+        4278190080,
+        4278233600,
+        4278242508,
+        4278190284,
+        4278190080,
+        4278233600,
+        4278242508,
+        4278190284
+      ]
+    },
+    {
+      "id": "79438f0019504177",
+      "path": "Backdrops/79438f0019504177.png",
+      "periodWidth": 3839,
+      "palette": [
+        4278190080,
+        4282664140,
+        4278190250,
+        4278190182,
+        4280427042,
+        4284900966,
+        4291611852,
+        4278207488,
+        4278225100,
+        4278190080,
+        4278190080,
+        4278190080,
+        4284909670,
+        4282672708,
+        4289374890,
+        4294936831,
+        4278190080,
+        4278190080,
+        4294967295,
+        4293839872,
+        4278190080,
+        4278190080,
+        4294967295,
+        4293839872,
+        4278190080,
+        4278233600,
+        4278242508,
+        4278190284,
+        4278190080,
+        4278233600,
+        4278242508,
+        4278190284
+      ]
+    },
+    {
+      "id": "1de193e47f315730",
+      "path": "Backdrops/1de193e47f315730.png",
+      "periodWidth": 3231,
+      "palette": [
+        4278190080,
+        4282664140,
+        4278190250,
+        4278190182,
+        4280427042,
+        4284900966,
+        4291611852,
+        4278207488,
+        4278225100,
+        4278190080,
+        4278190080,
+        4278190080,
+        4280453256,
+        4280444518,
+        4280435780,
+        4282703291,
+        4278190080,
+        4278190080,
+        4294967295,
+        4293839872,
+        4278190080,
+        4278190080,
+        4294967295,
+        4293839872,
+        4278190080,
+        4278233600,
+        4278242508,
+        4278190284,
+        4278190080,
+        4278233600,
+        4278242508,
+        4278190284
+      ]
+    },
+    {
+      "id": "72811009f14e5476",
+      "path": "Backdrops/72811009f14e5476.png",
+      "periodWidth": 3837,
+      "palette": [
+        4278190080,
+        4282664140,
+        4278190250,
+        4278190182,
+        4280427042,
+        4284900966,
+        4291611852,
+        4278207488,
+        4278225100,
+        4278190080,
+        4278190080,
+        4278190080,
+        4282681446,
+        4280444467,
+        4284896580,
+        4294936712,
+        4278190080,
+        4278190080,
+        4294967295,
+        4293839872,
+        4278190080,
+        4278190080,
+        4294967295,
+        4293839872,
+        4278190080,
+        4278233600,
+        4278242508,
+        4278190284,
+        4278190080,
+        4278233600,
+        4278242508,
+        4278190284
+      ]
+    },
+    {
+      "id": "b86520495c1bc4ad",
+      "path": "Backdrops/b86520495c1bc4ad.png",
+      "periodWidth": 3726,
+      "palette": [
+        4278190080,
+        4282664140,
+        4278190250,
+        4278190182,
+        4280427042,
+        4284900966,
+        4291611852,
+        4278207488,
+        4278225100,
+        4278190080,
+        4278190080,
+        4278190080,
+        4289374890,
+        4287137928,
+        4282664004,
+        4287138047,
+        4278190080,
+        4278190080,
+        4294967295,
+        4293839872,
+        4278190080,
+        4278190080,
+        4294967295,
+        4293839872,
+        4278190080,
+        4278233600,
+        4278242508,
+        4278190284,
+        4278190080,
+        4278233600,
+        4278242508,
+        4278190284
+      ]
+    },
+    {
+      "id": "49a6cc0aa2a7cef7",
+      "path": "Backdrops/49a6cc0aa2a7cef7.png",
+      "periodWidth": 3837,
+      "palette": [
+        4278190080,
+        4282664140,
+        4278190250,
+        4278190182,
+        4280427042,
+        4284900966,
+        4291611852,
+        4278207488,
+        4278225100,
+        4278190080,
+        4278190080,
+        4278190080,
+        4284883558,
+        4282664004,
+        4287137928,
+        4294949887,
+        4278190080,
+        4278190080,
+        4294967295,
+        4293839872,
+        4278190080,
+        4278190080,
+        4294967295,
+        4293839872,
+        4278190080,
+        4278233600,
+        4278242508,
+        4278190284,
+        4278190080,
+        4278233600,
+        4278242508,
+        4278190284
+      ]
+    }
+  ],
+  "panels": [
+    {
+      "mode": 10,
+      "path": "Panels/mode-10.png",
+      "reference": "References/panel-10.png",
+      "rect": [
+        0,
+        0,
+        320,
+        200
+      ]
+    },
+    {
+      "mode": 20,
+      "path": "Panels/mode-20.png",
+      "reference": "References/panel-20.png",
+      "rect": [
+        0,
+        0,
+        320,
+        200
+      ]
+    },
+    {
+      "mode": 21,
+      "path": "Panels/mode-21.png",
+      "reference": "References/panel-21.png",
+      "rect": [
+        0,
+        0,
+        320,
+        200
+      ]
+    },
+    {
+      "mode": 22,
+      "path": "Panels/mode-22.png",
+      "reference": "References/panel-22.png",
+      "rect": [
+        0,
+        0,
+        320,
+        120
+      ]
+    },
+    {
+      "mode": 23,
+      "path": "Panels/mode-23.png",
+      "reference": "References/panel-23.png",
+      "rect": [
+        0,
+        0,
+        320,
+        200
+      ]
+    }
+  ],
+  "font": {
+    "path": "Font/original.json",
+    "sha256": "81e6fc59a6725ee5f5c9ecf4b413c2a1a41692933e17ca35fb71ea5a3a27dfd3"
+  },
+  "hud": {
+    "path": "Font/hud.json",
+    "sha256": "7b28c5a3bb7169b94735f55ffc958d194503cac798bd80123902f6366dc6d089"
+  },
+  "radio": {
+    "path": "Panels/radio.png",
+    "reference": "References/radio.png",
+    "vectors": {
+      "path": "Font/radio.json",
+      "sha256": "dd993885b227b844d65c7f8866f589ac4a45bdf60c9b0fc26d15879e1c18e061"
+    }
+  },
+  "garagePoses": [
+    {
+      "hand": 0,
+      "phase": 1,
+      "rect": [
+        18,
+        44,
+        27,
+        15
+      ],
+      "path": "Menus/garage-arm-0-1.png"
+    },
+    {
+      "hand": 0,
+      "phase": 2,
+      "rect": [
+        18,
+        44,
+        27,
+        15
+      ],
+      "path": "Menus/garage-arm-0-2.png"
+    },
+    {
+      "hand": 1,
+      "phase": 1,
+      "rect": [
+        190,
+        29,
+        15,
+        13
+      ],
+      "path": "Menus/garage-arm-1-1.png"
+    },
+    {
+      "hand": 2,
+      "phase": 1,
+      "rect": [
+        211,
+        29,
+        15,
+        15
+      ],
+      "path": "Menus/garage-arm-2-1.png"
+    }
+  ],
+  "magneticFields": {
+    "path": "Font/magnetic-fields.json",
+    "sha256": "264c32087a229860b787bf8035c94b1634f55d437c4f26f6df96672804e18f55",
+    "artwork": "Panels/MF.png"
+  },
+  "dimensionModel": {
+    "path": "Font/dimensions.json",
+    "sha256": "7fc2f00e2a8cdf8efd68b278d091e22b4c93537d5085712f8bb1a56b84ba3c26"
+  }
+}

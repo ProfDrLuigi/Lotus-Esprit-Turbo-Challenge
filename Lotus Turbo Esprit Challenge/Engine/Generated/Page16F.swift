@@ -1,0 +1,85 @@
+// Generated 68000 game labels $016F00–$016FFF.
+extension LotusMachine {
+    func page16f() {
+        switch pc {
+        case 0x16f00: pc = 93956; let e0 = resolve(.immediate(word(93954)), 2); let source = get(e0, 2); let e1 = resolve(.reg(0), 2); let destination = get(e1, 2); _ = source; _ = destination; let value = subtract(destination, source, 2, compare: true); _ = value
+        case 0x16f04: pc = 93958; if condition(4) { pc = (93958 + Int(sign(byte(93957), 1))) }
+        case 0x16f06: pc = 93964; let e0 = resolve(.immediate(1), 2); let source = get(e0, 2); let e1 = resolve(.memory(Int(long(93960)) & 0xffffff), 2); let destination = get(e1, 2); _ = source; _ = destination; let value = add(destination, source, 2); put(e1, value, 2)
+        case 0x16f0c: pc = 93968; let e0 = resolve(.immediate(word(93966)), 2); let source = get(e0, 2); let e1 = resolve(.reg(0), 2); let destination = get(e1, 2); _ = source; _ = destination; let value = subtract(destination, source, 2, compare: true); _ = value
+        case 0x16f10: pc = 93970; if condition(5) { pc = (93970 + Int(sign(byte(93969), 1))) }
+        case 0x16f12: pc = 93976; let e0 = resolve(.reg(0), 2); let value = get(e0, 2); let e1 = resolve(.memory(Int(long(93972)) & 0xffffff), 2); put(e1, value, 2); logic(value, 2)
+        case 0x16f18: pc = 93980; let e0 = resolve(.immediate(word(93978)), 2); let source = get(e0, 2); let e1 = resolve(.reg(0), 2); let destination = get(e1, 2); _ = source; _ = destination; let value = subtract(destination, source, 2, compare: true); _ = value
+        case 0x16f1c: pc = 93982; if condition(4) { pc = (93982 + Int(sign(byte(93981), 1))) }
+        case 0x16f1e: pc = 93988; let e0 = resolve(.reg(0), 2); let value = get(e0, 2); let e1 = resolve(.memory(Int(long(93984)) & 0xffffff), 2); put(e1, value, 2); logic(value, 2)
+        case 0x16f24: pc = 93990; pc = Int(pop())
+        case 0x16f26: pc = 93996; let e0 = resolve(.immediate(long(93992)), 4); let value = get(e0, 4); let e1 = resolve(.reg(7), 4); put(e1, value, 4); logic(value, 4)
+        case 0x16f2c: pc = 94002; let e0 = resolve(.memory(Int(long(93998)) & 0xffffff), 4); let value = get(e0, 4); let e1 = resolve(.reg(6), 4); put(e1, value, 4); logic(value, 4)
+        case 0x16f32: pc = 94008; let e0 = resolve(.memory(Int(long(94004)) & 0xffffff), 2); logic(get(e0, 2), 2)
+        case 0x16f38: pc = 94010; if condition(6) { pc = (94010 + Int(sign(byte(94009), 1))) }
+        case 0x16f3a: pc = 94018; let e0 = resolve(.immediate(word(94012)), 2); let value = get(e0, 2); let e1 = resolve(.memory(Int(long(94014)) & 0xffffff), 2); put(e1, value, 2); logic(value, 2)
+        case 0x16f42: pc = 94020; let e0 = resolve(.reg(6), 4); r[8] = UInt32(bitPattern: sign(get(e0, 4), 4))
+        case 0x16f44: pc = 94024; let e0 = resolve(.immediate(word(94022)), 2); let source = get(e0, 2); let e1 = resolve(.reg(8), 2); let destination = get(e1, 2); _ = source; _ = destination; r[8] = r[8] &+ UInt32(bitPattern: sign(source, 2))
+        case 0x16f48: pc = 94026; let e0 = resolve(.reg(8), 4); let value = get(e0, 4); let e1 = resolve(.post(12), 4); put(e1, value, 4); logic(value, 4)
+        case 0x16f4a: pc = 94030; pc = (94028 + Int(sign(word(94028), 2)))
+        case 0x16f4e: pc = 94036; let e0 = resolve(.memory(Int(long(94032)) & 0xffffff), 2); logic(get(e0, 2), 2)
+        case 0x16f54: pc = 94038; if condition(6) { pc = (94038 + Int(sign(byte(94037), 1))) }
+        case 0x16f56: pc = 94044; let e0 = resolve(.immediate(long(94040)), 4); let value = get(e0, 4); let e1 = resolve(.post(12), 4); put(e1, value, 4); logic(value, 4)
+        case 0x16f5c: pc = 94046; pc = (94046 + Int(sign(byte(94045), 1)))
+        case 0x16f5e: pc = 94052; let e0 = resolve(.immediate(long(94048)), 4); let value = get(e0, 4); let e1 = resolve(.post(12), 4); put(e1, value, 4); logic(value, 4)
+        case 0x16f64: pc = 94054; let e0 = resolve(.reg(6), 4); r[8] = UInt32(bitPattern: sign(get(e0, 4), 4))
+        case 0x16f66: pc = 94056; let e0 = resolve(.immediate(2), 2); let source = get(e0, 2); let e1 = resolve(.reg(8), 2); let destination = get(e1, 2); _ = source; _ = destination; r[8] = r[8] &+ source
+        case 0x16f68: pc = 94062; let e0 = resolve(.memory(Int(long(94058)) & 0xffffff), 4); r[9] = UInt32(truncatingIfNeeded: e0.address)
+        case 0x16f6e: pc = 94068; let e0 = resolve(.immediate(long(94064)), 4); let value = get(e0, 4); let e1 = resolve(.reg(0), 4); put(e1, value, 4); logic(value, 4)
+        case 0x16f74: pc = 94070; let e0 = resolve(.reg(8), 4); let value = get(e0, 4); let e1 = resolve(.post(12), 4); put(e1, value, 4); logic(value, 4)
+        case 0x16f76: pc = 94072; let e0 = resolve(.reg(9), 4); let value = get(e0, 4); let e1 = resolve(.post(12), 4); put(e1, value, 4); logic(value, 4)
+        case 0x16f78: pc = 94074; let e0 = resolve(.reg(7), 2); let source = get(e0, 2); let e1 = resolve(.reg(8), 2); let destination = get(e1, 2); _ = source; _ = destination; r[8] = r[8] &+ UInt32(bitPattern: sign(source, 2))
+        case 0x16f7a: pc = 94076; let e0 = resolve(.reg(0), 2); let source = get(e0, 2); let e1 = resolve(.reg(9), 2); let destination = get(e1, 2); _ = source; _ = destination; r[9] = r[9] &+ UInt32(bitPattern: sign(source, 2))
+        case 0x16f7c: pc = 94078; let e0 = resolve(.reg(8), 4); let value = get(e0, 4); let e1 = resolve(.post(12), 4); put(e1, value, 4); logic(value, 4)
+        case 0x16f7e: pc = 94080; let e0 = resolve(.reg(9), 4); let value = get(e0, 4); let e1 = resolve(.post(12), 4); put(e1, value, 4); logic(value, 4)
+        case 0x16f80: pc = 94082; let e0 = resolve(.reg(7), 2); let source = get(e0, 2); let e1 = resolve(.reg(8), 2); let destination = get(e1, 2); _ = source; _ = destination; r[8] = r[8] &+ UInt32(bitPattern: sign(source, 2))
+        case 0x16f82: pc = 94084; let e0 = resolve(.reg(0), 2); let source = get(e0, 2); let e1 = resolve(.reg(9), 2); let destination = get(e1, 2); _ = source; _ = destination; r[9] = r[9] &+ UInt32(bitPattern: sign(source, 2))
+        case 0x16f84: pc = 94086; let e0 = resolve(.reg(8), 4); let value = get(e0, 4); let e1 = resolve(.post(12), 4); put(e1, value, 4); logic(value, 4)
+        case 0x16f86: pc = 94088; let e0 = resolve(.reg(9), 4); let value = get(e0, 4); let e1 = resolve(.post(12), 4); put(e1, value, 4); logic(value, 4)
+        case 0x16f88: pc = 94090; let e0 = resolve(.reg(7), 2); let source = get(e0, 2); let e1 = resolve(.reg(8), 2); let destination = get(e1, 2); _ = source; _ = destination; r[8] = r[8] &+ UInt32(bitPattern: sign(source, 2))
+        case 0x16f8a: pc = 94092; let e0 = resolve(.reg(0), 2); let source = get(e0, 2); let e1 = resolve(.reg(9), 2); let destination = get(e1, 2); _ = source; _ = destination; r[9] = r[9] &+ UInt32(bitPattern: sign(source, 2))
+        case 0x16f8c: pc = 94094; let e0 = resolve(.reg(8), 4); let value = get(e0, 4); let e1 = resolve(.post(12), 4); put(e1, value, 4); logic(value, 4)
+        case 0x16f8e: pc = 94096; let e0 = resolve(.reg(9), 4); let value = get(e0, 4); let e1 = resolve(.post(12), 4); put(e1, value, 4); logic(value, 4)
+        case 0x16f90: pc = 94102; let e0 = resolve(.immediate(1), 2); let source = get(e0, 2); let e1 = resolve(.memory(Int(long(94098)) & 0xffffff), 2); let destination = get(e1, 2); _ = source; _ = destination; let value = subtract(destination, source, 2); put(e1, value, 2)
+        case 0x16f96: pc = 94108; let e0 = resolve(.memory(Int(long(94104)) & 0xffffff), 2); let value = get(e0, 2); let e1 = resolve(.reg(0), 2); put(e1, value, 2); logic(value, 2)
+        case 0x16f9c: pc = 94112; let e0 = resolve(.immediate(word(94110)), 2); let source = get(e0, 2); let e1 = resolve(.reg(0), 2); let destination = get(e1, 2); _ = source; _ = destination; let value = destination & source; put(e1, value, 2); logic(value, 2)
+        case 0x16fa0: pc = 94114; let e0 = resolve(.reg(0), 2); let source = get(e0, 2); let e1 = resolve(.reg(0), 2); let destination = get(e1, 2); _ = source; _ = destination; let value = add(destination, source, 2); put(e1, value, 2)
+        case 0x16fa2: pc = 94120; let e0 = resolve(.memory(Int(long(94116)) & 0xffffff), 2); let value = get(e0, 2); let e1 = resolve(.reg(1), 2); put(e1, value, 2); logic(value, 2)
+        case 0x16fa8: pc = 94124; let e0 = resolve(.immediate(word(94122)), 2); let source = get(e0, 2); let e1 = resolve(.reg(1), 2); let destination = get(e1, 2); _ = source; _ = destination; let value = destination & source; put(e1, value, 2); logic(value, 2)
+        case 0x16fac: pc = 94128; let e0 = resolve(.immediate(word(94126)), 2); let source = get(e0, 2); r[1] = (r[1] & 65535) &* source; logic(r[1], 4)
+        case 0x16fb0: pc = 94130; let e0 = resolve(.reg(1), 2); let source = get(e0, 2); let e1 = resolve(.reg(0), 2); let destination = get(e1, 2); _ = source; _ = destination; let value = add(destination, source, 2); put(e1, value, 2)
+        case 0x16fb2: pc = 94136; let e0 = resolve(.memory(Int(long(94132)) & 0xffffff), 4); r[8] = UInt32(truncatingIfNeeded: e0.address)
+        case 0x16fb8: pc = 94138; let e0 = resolve(.reg(0), 2); let source = get(e0, 2); let e1 = resolve(.reg(8), 2); let destination = get(e1, 2); _ = source; _ = destination; r[8] = r[8] &+ UInt32(bitPattern: sign(source, 2))
+        case 0x16fba: pc = 94140; let e0 = resolve(.reg(6), 4); r[9] = UInt32(bitPattern: sign(get(e0, 4), 4))
+        case 0x16fbc: pc = 94144; let e0 = resolve(.immediate(word(94142)), 2); let source = get(e0, 2); let e1 = resolve(.reg(9), 2); let destination = get(e1, 2); _ = source; _ = destination; r[9] = r[9] &+ UInt32(bitPattern: sign(source, 2))
+        case 0x16fc0: pc = 94148; let e0 = resolve(.immediate(word(94146)), 2); let value = get(e0, 2); let e1 = resolve(.reg(0), 2); put(e1, value, 2); logic(value, 2)
+        case 0x16fc4: pc = 94150; let e0 = resolve(.reg(9), 4); let value = get(e0, 4); let e1 = resolve(.post(12), 4); put(e1, value, 4); logic(value, 4)
+        case 0x16fc6: pc = 94152; let e0 = resolve(.reg(8), 4); let value = get(e0, 4); let e1 = resolve(.post(12), 4); put(e1, value, 4); logic(value, 4)
+        case 0x16fc8: pc = 94154; let e0 = resolve(.reg(7), 2); let source = get(e0, 2); let e1 = resolve(.reg(9), 2); let destination = get(e1, 2); _ = source; _ = destination; r[9] = r[9] &+ UInt32(bitPattern: sign(source, 2))
+        case 0x16fca: pc = 94156; let e0 = resolve(.reg(0), 2); let source = get(e0, 2); let e1 = resolve(.reg(8), 2); let destination = get(e1, 2); _ = source; _ = destination; r[8] = r[8] &+ UInt32(bitPattern: sign(source, 2))
+        case 0x16fcc: pc = 94158; let e0 = resolve(.reg(9), 4); let value = get(e0, 4); let e1 = resolve(.post(12), 4); put(e1, value, 4); logic(value, 4)
+        case 0x16fce: pc = 94160; let e0 = resolve(.reg(8), 4); let value = get(e0, 4); let e1 = resolve(.post(12), 4); put(e1, value, 4); logic(value, 4)
+        case 0x16fd0: pc = 94162; let e0 = resolve(.reg(7), 2); let source = get(e0, 2); let e1 = resolve(.reg(9), 2); let destination = get(e1, 2); _ = source; _ = destination; r[9] = r[9] &+ UInt32(bitPattern: sign(source, 2))
+        case 0x16fd2: pc = 94164; let e0 = resolve(.reg(0), 2); let source = get(e0, 2); let e1 = resolve(.reg(8), 2); let destination = get(e1, 2); _ = source; _ = destination; r[8] = r[8] &+ UInt32(bitPattern: sign(source, 2))
+        case 0x16fd4: pc = 94166; let e0 = resolve(.reg(9), 4); let value = get(e0, 4); let e1 = resolve(.post(12), 4); put(e1, value, 4); logic(value, 4)
+        case 0x16fd6: pc = 94168; let e0 = resolve(.reg(8), 4); let value = get(e0, 4); let e1 = resolve(.post(12), 4); put(e1, value, 4); logic(value, 4)
+        case 0x16fd8: pc = 94170; let e0 = resolve(.reg(7), 2); let source = get(e0, 2); let e1 = resolve(.reg(9), 2); let destination = get(e1, 2); _ = source; _ = destination; r[9] = r[9] &+ UInt32(bitPattern: sign(source, 2))
+        case 0x16fda: pc = 94172; let e0 = resolve(.reg(0), 2); let source = get(e0, 2); let e1 = resolve(.reg(8), 2); let destination = get(e1, 2); _ = source; _ = destination; r[8] = r[8] &+ UInt32(bitPattern: sign(source, 2))
+        case 0x16fdc: pc = 94174; let e0 = resolve(.reg(9), 4); let value = get(e0, 4); let e1 = resolve(.post(12), 4); put(e1, value, 4); logic(value, 4)
+        case 0x16fde: pc = 94176; let e0 = resolve(.reg(8), 4); let value = get(e0, 4); let e1 = resolve(.post(12), 4); put(e1, value, 4); logic(value, 4)
+        case 0x16fe0: pc = 94182; let e0 = resolve(.memory(Int(long(94178)) & 0xffffff), 2); let value = get(e0, 2); let e1 = resolve(.reg(0), 2); put(e1, value, 2); logic(value, 2)
+        case 0x16fe6: pc = 94186; let e0 = resolve(.immediate(word(94184)), 2); let source = get(e0, 2); let e1 = resolve(.reg(0), 2); let destination = get(e1, 2); _ = source; _ = destination; let value = destination & source; put(e1, value, 2); logic(value, 2)
+        case 0x16fea: pc = 94190; let e0 = resolve(.immediate(word(94188)), 2); let source = get(e0, 2); r[0] = (r[0] & 65535) &* source; logic(r[0], 4)
+        case 0x16fee: pc = 94194; let e0 = resolve(.immediate(word(94192)), 2); let source = get(e0, 2); let e1 = resolve(.reg(0), 2); let destination = get(e1, 2); _ = source; _ = destination; let value = add(destination, source, 2); put(e1, value, 2)
+        case 0x16ff2: pc = 94200; let e0 = resolve(.memory(Int(long(94196)) & 0xffffff), 4); r[8] = UInt32(truncatingIfNeeded: e0.address)
+        case 0x16ff8: pc = 94202; let e0 = resolve(.reg(0), 2); let source = get(e0, 2); let e1 = resolve(.reg(8), 2); let destination = get(e1, 2); _ = source; _ = destination; r[8] = r[8] &+ UInt32(bitPattern: sign(source, 2))
+        case 0x16ffa: pc = 94204; let e0 = resolve(.reg(6), 4); r[9] = UInt32(bitPattern: sign(get(e0, 4), 4))
+        case 0x16ffc: pc = 94208; let e0 = resolve(.immediate(word(94206)), 2); let source = get(e0, 2); let e1 = resolve(.reg(9), 2); let destination = get(e1, 2); _ = source; _ = destination; r[9] = r[9] &+ UInt32(bitPattern: sign(source, 2))
+        default: fail("Untranslated game address")
+        }
+    }
+}

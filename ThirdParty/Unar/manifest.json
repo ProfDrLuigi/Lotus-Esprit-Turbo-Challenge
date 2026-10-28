@@ -1,0 +1,21 @@
+{
+  "minimumMacOS": "11.0",
+  "architectures": [
+    "arm64",
+    "x86_64"
+  ],
+  "sources": {
+    "XADMaster": {
+      "commit": "7cb9ee0abbb163f261e4cb74501e15067032319c",
+      "sha256": "2a0f46686ea38aad19dd1a5fd71db2de6ca291596685c82535ac2dd0e5c51378"
+    },
+    "UniversalDetector": {
+      "commit": "4eb832d999628edcd3d134e46bd35357c8c99a85",
+      "sha256": "62d4258644f5d449110d95901083329adb6e6a5d3b972225325c62c4a829ec0a"
+    }
+  },
+  "binaries": {
+    "unar": "34f47d3884dd59c0bd59382ed68b72b3cbd7bfa941994997e9b43a07c9fa05fd",
+    "lsar": "c8c25c87142227e51674131a1c1d6042e74d83d1f6cb1c16027add54d58ac0ae"
+  }
+}

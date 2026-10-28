@@ -1,0 +1,111 @@
+// Generated 68000 game labels $014300–$0143FF.
+extension LotusMachine {
+    func page143() {
+        switch pc {
+        case 0x14300: pc = 82690; let e0 = resolve(.post(12), 1); let value = get(e0, 1); let e1 = resolve(.reg(1), 1); put(e1, value, 1); logic(value, 1)
+        case 0x14302: pc = 82692; let e0 = resolve(.reg(1), 1); let source = get(e0, 1); let e1 = resolve(.reg(1), 1); let destination = get(e1, 1); _ = source; _ = destination; let value = add(destination, source, 1); put(e1, value, 1)
+        case 0x14304: pc = 82694; let e0 = resolve(.reg(2), 1); let source = get(e0, 1); let e1 = resolve(.reg(2), 1); let destination = get(e1, 1); _ = source; _ = destination; let value = add(destination, source, 1, extend: true); put(e1, value, 1)
+        case 0x14306: pc = 82696; let e0 = resolve(.reg(1), 1); let source = get(e0, 1); let e1 = resolve(.reg(1), 1); let destination = get(e1, 1); _ = source; _ = destination; let value = add(destination, source, 1); put(e1, value, 1)
+        case 0x14308: pc = 82698; let e0 = resolve(.reg(3), 1); let source = get(e0, 1); let e1 = resolve(.reg(3), 1); let destination = get(e1, 1); _ = source; _ = destination; let value = add(destination, source, 1, extend: true); put(e1, value, 1)
+        case 0x1430a: pc = 82700; let e0 = resolve(.reg(1), 1); let source = get(e0, 1); let e1 = resolve(.reg(1), 1); let destination = get(e1, 1); _ = source; _ = destination; let value = add(destination, source, 1); put(e1, value, 1)
+        case 0x1430c: pc = 82702; let e0 = resolve(.reg(4), 1); let source = get(e0, 1); let e1 = resolve(.reg(4), 1); let destination = get(e1, 1); _ = source; _ = destination; let value = add(destination, source, 1, extend: true); put(e1, value, 1)
+        case 0x1430e: pc = 82704; let e0 = resolve(.reg(1), 1); let source = get(e0, 1); let e1 = resolve(.reg(1), 1); let destination = get(e1, 1); _ = source; _ = destination; let value = add(destination, source, 1); put(e1, value, 1)
+        case 0x14310: pc = 82706; let e0 = resolve(.reg(5), 1); let source = get(e0, 1); let e1 = resolve(.reg(5), 1); let destination = get(e1, 1); _ = source; _ = destination; let value = add(destination, source, 1, extend: true); put(e1, value, 1)
+        case 0x14312: pc = 82708; let e0 = resolve(.reg(1), 1); let source = get(e0, 1); let e1 = resolve(.reg(1), 1); let destination = get(e1, 1); _ = source; _ = destination; let value = add(destination, source, 1); put(e1, value, 1)
+        case 0x14314: pc = 82710; let e0 = resolve(.reg(6), 1); let source = get(e0, 1); let e1 = resolve(.reg(6), 1); let destination = get(e1, 1); _ = source; _ = destination; let value = add(destination, source, 1, extend: true); put(e1, value, 1)
+        case 0x14316: pc = 82712; let e0 = resolve(.post(12), 1); let value = get(e0, 1); let e1 = resolve(.reg(1), 1); put(e1, value, 1); logic(value, 1)
+        case 0x14318: pc = 82714; let e0 = resolve(.reg(1), 1); let source = get(e0, 1); let e1 = resolve(.reg(1), 1); let destination = get(e1, 1); _ = source; _ = destination; let value = add(destination, source, 1); put(e1, value, 1)
+        case 0x1431a: pc = 82716; let e0 = resolve(.reg(2), 1); let source = get(e0, 1); let e1 = resolve(.reg(2), 1); let destination = get(e1, 1); _ = source; _ = destination; let value = add(destination, source, 1, extend: true); put(e1, value, 1)
+        case 0x1431c: pc = 82718; let e0 = resolve(.reg(1), 1); let source = get(e0, 1); let e1 = resolve(.reg(1), 1); let destination = get(e1, 1); _ = source; _ = destination; let value = add(destination, source, 1); put(e1, value, 1)
+        case 0x1431e: pc = 82720; let e0 = resolve(.reg(3), 1); let source = get(e0, 1); let e1 = resolve(.reg(3), 1); let destination = get(e1, 1); _ = source; _ = destination; let value = add(destination, source, 1, extend: true); put(e1, value, 1)
+        case 0x14320: pc = 82722; let e0 = resolve(.reg(1), 1); let source = get(e0, 1); let e1 = resolve(.reg(1), 1); let destination = get(e1, 1); _ = source; _ = destination; let value = add(destination, source, 1); put(e1, value, 1)
+        case 0x14322: pc = 82724; let e0 = resolve(.reg(4), 1); let source = get(e0, 1); let e1 = resolve(.reg(4), 1); let destination = get(e1, 1); _ = source; _ = destination; let value = add(destination, source, 1, extend: true); put(e1, value, 1)
+        case 0x14324: pc = 82726; let e0 = resolve(.reg(1), 1); let source = get(e0, 1); let e1 = resolve(.reg(1), 1); let destination = get(e1, 1); _ = source; _ = destination; let value = add(destination, source, 1); put(e1, value, 1)
+        case 0x14326: pc = 82728; let e0 = resolve(.reg(5), 1); let source = get(e0, 1); let e1 = resolve(.reg(5), 1); let destination = get(e1, 1); _ = source; _ = destination; let value = add(destination, source, 1, extend: true); put(e1, value, 1)
+        case 0x14328: pc = 82730; let e0 = resolve(.reg(1), 1); let source = get(e0, 1); let e1 = resolve(.reg(1), 1); let destination = get(e1, 1); _ = source; _ = destination; let value = add(destination, source, 1); put(e1, value, 1)
+        case 0x1432a: pc = 82732; let e0 = resolve(.reg(6), 1); let source = get(e0, 1); let e1 = resolve(.reg(6), 1); let destination = get(e1, 1); _ = source; _ = destination; let value = add(destination, source, 1, extend: true); put(e1, value, 1)
+        case 0x1432c: pc = 82734; let e0 = resolve(.post(12), 1); let value = get(e0, 1); let e1 = resolve(.reg(1), 1); put(e1, value, 1); logic(value, 1)
+        case 0x1432e: pc = 82736; let e0 = resolve(.reg(1), 1); let source = get(e0, 1); let e1 = resolve(.reg(1), 1); let destination = get(e1, 1); _ = source; _ = destination; let value = add(destination, source, 1); put(e1, value, 1)
+        case 0x14330: pc = 82738; let e0 = resolve(.reg(2), 1); let source = get(e0, 1); let e1 = resolve(.reg(2), 1); let destination = get(e1, 1); _ = source; _ = destination; let value = add(destination, source, 1, extend: true); put(e1, value, 1)
+        case 0x14332: pc = 82740; let e0 = resolve(.reg(1), 1); let source = get(e0, 1); let e1 = resolve(.reg(1), 1); let destination = get(e1, 1); _ = source; _ = destination; let value = add(destination, source, 1); put(e1, value, 1)
+        case 0x14334: pc = 82742; let e0 = resolve(.reg(3), 1); let source = get(e0, 1); let e1 = resolve(.reg(3), 1); let destination = get(e1, 1); _ = source; _ = destination; let value = add(destination, source, 1, extend: true); put(e1, value, 1)
+        case 0x14336: pc = 82744; let e0 = resolve(.reg(1), 1); let source = get(e0, 1); let e1 = resolve(.reg(1), 1); let destination = get(e1, 1); _ = source; _ = destination; let value = add(destination, source, 1); put(e1, value, 1)
+        case 0x14338: pc = 82746; let e0 = resolve(.reg(4), 1); let source = get(e0, 1); let e1 = resolve(.reg(4), 1); let destination = get(e1, 1); _ = source; _ = destination; let value = add(destination, source, 1, extend: true); put(e1, value, 1)
+        case 0x1433a: pc = 82748; let e0 = resolve(.reg(1), 1); let source = get(e0, 1); let e1 = resolve(.reg(1), 1); let destination = get(e1, 1); _ = source; _ = destination; let value = add(destination, source, 1); put(e1, value, 1)
+        case 0x1433c: pc = 82750; let e0 = resolve(.reg(5), 1); let source = get(e0, 1); let e1 = resolve(.reg(5), 1); let destination = get(e1, 1); _ = source; _ = destination; let value = add(destination, source, 1, extend: true); put(e1, value, 1)
+        case 0x1433e: pc = 82752; let e0 = resolve(.reg(1), 1); let source = get(e0, 1); let e1 = resolve(.reg(1), 1); let destination = get(e1, 1); _ = source; _ = destination; let value = add(destination, source, 1); put(e1, value, 1)
+        case 0x14340: pc = 82754; let e0 = resolve(.reg(6), 1); let source = get(e0, 1); let e1 = resolve(.reg(6), 1); let destination = get(e1, 1); _ = source; _ = destination; let value = add(destination, source, 1, extend: true); put(e1, value, 1)
+        case 0x14342: pc = 82760; let e0 = resolve(.memory(Int(long(82756)) & 0xffffff), 4); let value = get(e0, 4); let e1 = resolve(.reg(1), 4); put(e1, value, 4); logic(value, 4)
+        case 0x14348: pc = 82762; let e0 = resolve(.reg(2), 1); let value = get(e0, 1); let e1 = resolve(.pre(11), 1); put(e1, value, 1); logic(value, 1)
+        case 0x1434a: pc = 82764; let e0 = resolve(.reg(1), 4); let source = get(e0, 4); let e1 = resolve(.reg(11), 4); let destination = get(e1, 4); _ = source; _ = destination; r[11] = r[11] &+ source
+        case 0x1434c: pc = 82766; let e0 = resolve(.reg(3), 1); let value = get(e0, 1); let e1 = resolve(.indirect(11), 1); put(e1, value, 1); logic(value, 1)
+        case 0x1434e: pc = 82768; let e0 = resolve(.reg(1), 4); let source = get(e0, 4); let e1 = resolve(.reg(11), 4); let destination = get(e1, 4); _ = source; _ = destination; r[11] = r[11] &+ source
+        case 0x14350: pc = 82770; let e0 = resolve(.reg(4), 1); let value = get(e0, 1); let e1 = resolve(.indirect(11), 1); put(e1, value, 1); logic(value, 1)
+        case 0x14352: pc = 82772; let e0 = resolve(.reg(1), 4); let source = get(e0, 4); let e1 = resolve(.reg(11), 4); let destination = get(e1, 4); _ = source; _ = destination; r[11] = r[11] &+ source
+        case 0x14354: pc = 82774; let e0 = resolve(.reg(5), 1); let value = get(e0, 1); let e1 = resolve(.indirect(11), 1); put(e1, value, 1); logic(value, 1)
+        case 0x14356: pc = 82776; let e0 = resolve(.reg(1), 4); let source = get(e0, 4); let e1 = resolve(.reg(11), 4); let destination = get(e1, 4); _ = source; _ = destination; r[11] = r[11] &+ source
+        case 0x14358: pc = 82778; let e0 = resolve(.reg(6), 1); let value = get(e0, 1); let e1 = resolve(.indirect(11), 1); put(e1, value, 1); logic(value, 1)
+        case 0x1435a: pc = 82780; let e0 = resolve(.reg(1), 4); let source = get(e0, 4); let e1 = resolve(.reg(11), 4); let destination = get(e1, 4); _ = source; _ = destination; r[11] = r[11] &- source
+        case 0x1435c: pc = 82782; let e0 = resolve(.reg(1), 4); let source = get(e0, 4); let e1 = resolve(.reg(11), 4); let destination = get(e1, 4); _ = source; _ = destination; r[11] = r[11] &- source
+        case 0x1435e: pc = 82784; let e0 = resolve(.reg(1), 4); let source = get(e0, 4); let e1 = resolve(.reg(11), 4); let destination = get(e1, 4); _ = source; _ = destination; r[11] = r[11] &- source
+        case 0x14360: pc = 82786; let e0 = resolve(.reg(1), 4); let source = get(e0, 4); let e1 = resolve(.reg(11), 4); let destination = get(e1, 4); _ = source; _ = destination; r[11] = r[11] &- source
+        case 0x14362: pc = 82788; let e0 = resolve(.post(15), 2); let value = get(e0, 2); let e1 = resolve(.reg(5), 2); put(e1, value, 2); logic(value, 2)
+        case 0x14364: pc = 82790; let e0 = resolve(.post(15), 2); let value = get(e0, 2); let e1 = resolve(.reg(4), 2); put(e1, value, 2); logic(value, 2)
+        case 0x14366: pc = 82792; let e0 = resolve(.post(15), 2); let value = get(e0, 2); let e1 = resolve(.reg(2), 2); put(e1, value, 2); logic(value, 2)
+        case 0x14368: pc = 82794; pc = Int(pop())
+        case 0x1436a: pc = 82796; r[1] = UInt32(bitPattern: sign(byte(82795), 1)); logic(r[1], 4)
+        case 0x1436c: pc = 82798; push(82798); pc = (82798 + Int(sign(byte(82797), 1)))
+        case 0x1436e: pc = 82800; let e0 = resolve(.reg(7), 2); let source = get(e0, 2); let e1 = resolve(.reg(7), 2); let destination = get(e1, 2); _ = source; _ = destination; let value = add(destination, source, 2); put(e1, value, 2)
+        case 0x14370: pc = 82802; let e0 = resolve(.reg(7), 2); let source = get(e0, 2); let e1 = resolve(.reg(7), 2); let destination = get(e1, 2); _ = source; _ = destination; let value = add(destination, source, 2); put(e1, value, 2)
+        case 0x14372: pc = 82806; let e0 = resolve(.memory(82812), 4); r[14] = UInt32(truncatingIfNeeded: e0.address)
+        case 0x14376: pc = 82810; let e0 = resolve(.indexed(14, 7, false, 0), 4); r[14] = UInt32(bitPattern: sign(get(e0, 4), 4))
+        case 0x1437a: pc = 82812; let e0 = resolve(.indirect(14), 4); pc = e0.address
+        case 0x1437c: pc = 82816; let e0 = resolve(.immediate(word(82814)), 1); let source = get(e0, 1); let e1 = resolve(.reg(1), 1); let destination = get(e1, 1); _ = source; _ = destination; let value = destination | source; put(e1, value, 1); logic(value, 1)
+        case 0x14380: pc = 82820; let e0 = resolve(.immediate(word(82818)), 1); let source = get(e0, 1); let e1 = resolve(.reg(1), 1); let destination = get(e1, 1); _ = source; _ = destination; let value = destination | source; put(e1, value, 1); logic(value, 1)
+        case 0x14384: pc = 82824; let e0 = resolve(.immediate(word(82822)), 1); let source = get(e0, 1); let e1 = resolve(.reg(1), 1); let destination = get(e1, 1); _ = source; _ = destination; let value = destination | source; put(e1, value, 1); logic(value, 1)
+        case 0x14388: pc = 82828; let e0 = resolve(.immediate(word(82826)), 1); let source = get(e0, 1); let e1 = resolve(.reg(1), 1); let destination = get(e1, 1); _ = source; _ = destination; let value = destination | source; put(e1, value, 1); logic(value, 1)
+        case 0x1438c: pc = 82832; let e0 = resolve(.immediate(word(82830)), 1); let source = get(e0, 1); let e1 = resolve(.reg(1), 1); let destination = get(e1, 1); _ = source; _ = destination; let value = destination | source; put(e1, value, 1); logic(value, 1)
+        case 0x14390: pc = 82836; let e0 = resolve(.immediate(word(82834)), 1); let source = get(e0, 1); let e1 = resolve(.reg(1), 1); let destination = get(e1, 1); _ = source; _ = destination; let value = destination | source; put(e1, value, 1); logic(value, 1)
+        case 0x14394: pc = 82840; let e0 = resolve(.immediate(word(82838)), 1); let source = get(e0, 1); let e1 = resolve(.reg(1), 1); let destination = get(e1, 1); _ = source; _ = destination; let value = destination | source; put(e1, value, 1); logic(value, 1)
+        case 0x14398: pc = 82844; let e0 = resolve(.immediate(word(82842)), 1); let source = get(e0, 1); let e1 = resolve(.reg(1), 1); let destination = get(e1, 1); _ = source; _ = destination; let value = destination | source; put(e1, value, 1); logic(value, 1)
+        case 0x1439c: pc = 82848; let e0 = resolve(.immediate(word(82846)), 1); let source = get(e0, 1); let e1 = resolve(.reg(1), 1); let destination = get(e1, 1); _ = source; _ = destination; let value = destination | source; put(e1, value, 1); logic(value, 1)
+        case 0x143a0: pc = 82852; let e0 = resolve(.immediate(word(82850)), 1); let source = get(e0, 1); let e1 = resolve(.reg(1), 1); let destination = get(e1, 1); _ = source; _ = destination; let value = destination | source; put(e1, value, 1); logic(value, 1)
+        case 0x143a4: pc = 82856; let e0 = resolve(.immediate(word(82854)), 1); let source = get(e0, 1); let e1 = resolve(.reg(1), 1); let destination = get(e1, 1); _ = source; _ = destination; let value = destination | source; put(e1, value, 1); logic(value, 1)
+        case 0x143a8: pc = 82860; let e0 = resolve(.immediate(word(82858)), 1); let source = get(e0, 1); let e1 = resolve(.reg(1), 1); let destination = get(e1, 1); _ = source; _ = destination; let value = destination | source; put(e1, value, 1); logic(value, 1)
+        case 0x143ac: pc = 82864; let e0 = resolve(.immediate(word(82862)), 1); let source = get(e0, 1); let e1 = resolve(.reg(1), 1); let destination = get(e1, 1); _ = source; _ = destination; let value = destination | source; put(e1, value, 1); logic(value, 1)
+        case 0x143b0: pc = 82868; let e0 = resolve(.immediate(word(82866)), 1); let source = get(e0, 1); let e1 = resolve(.reg(1), 1); let destination = get(e1, 1); _ = source; _ = destination; let value = destination | source; put(e1, value, 1); logic(value, 1)
+        case 0x143b4: pc = 82872; let e0 = resolve(.immediate(word(82870)), 1); let source = get(e0, 1); let e1 = resolve(.reg(1), 1); let destination = get(e1, 1); _ = source; _ = destination; let value = destination | source; put(e1, value, 1); logic(value, 1)
+        case 0x143b8: pc = 82876; let e0 = resolve(.immediate(word(82874)), 1); let source = get(e0, 1); let e1 = resolve(.reg(1), 1); let destination = get(e1, 1); _ = source; _ = destination; let value = destination | source; put(e1, value, 1); logic(value, 1)
+        case 0x143bc: pc = 82878; let e0 = resolve(.immediate(1), 2); let source = get(e0, 2); let e1 = resolve(.reg(1), 2); let destination = get(e1, 2); _ = source; _ = destination; let value = subtract(destination, source, 2); put(e1, value, 2)
+        case 0x143be: pc = 82880; r[7] = UInt32(bitPattern: sign(byte(82879), 1)); logic(r[7], 4)
+        case 0x143c0: pc = 82882; let e0 = resolve(.reg(0), 4); let source = get(e0, 4); let e1 = resolve(.reg(0), 4); let destination = get(e1, 4); _ = source; _ = destination; let value = add(destination, source, 4); put(e1, value, 4)
+        case 0x143c2: pc = 82884; if condition(6) { pc = (82884 + Int(sign(byte(82883), 1))) }
+        case 0x143c4: pc = 82886; let e0 = resolve(.pre(8), 4); let value = get(e0, 4); let e1 = resolve(.reg(0), 4); put(e1, value, 4); logic(value, 4)
+        case 0x143c6: pc = 82890; let e0 = resolve(.immediate(word(82888)), 2); let value = get(e0, 2); let e1 = resolve(.status, 2); put(e1, value, 2)
+        case 0x143ca: pc = 82892; let e0 = resolve(.reg(0), 4); let source = get(e0, 4); let e1 = resolve(.reg(0), 4); let destination = get(e1, 4); _ = source; _ = destination; let value = add(destination, source, 4, extend: true); put(e1, value, 4)
+        case 0x143cc: pc = 82894; let e0 = resolve(.reg(7), 2); let source = get(e0, 2); let e1 = resolve(.reg(7), 2); let destination = get(e1, 2); _ = source; _ = destination; let value = add(destination, source, 2, extend: true); put(e1, value, 2)
+        case 0x143ce: pc = 82898; if !condition(1) {     setRegister(1, r[1] &- 1, 2);     if r[1] & 65535 != 65535 { pc = (82896 + Int(sign(word(82896), 2))) } }
+        case 0x143d2: pc = 82900; pc = Int(pop())
+        case 0x143d4: pc = 82902; r[7] = UInt32(bitPattern: sign(byte(82901), 1)); logic(r[7], 4)
+        case 0x143d6: pc = 82904; let e0 = resolve(.reg(0), 4); let source = get(e0, 4); let e1 = resolve(.reg(0), 4); let destination = get(e1, 4); _ = source; _ = destination; let value = add(destination, source, 4); put(e1, value, 4)
+        case 0x143d8: pc = 82906; if condition(6) { pc = (82906 + Int(sign(byte(82905), 1))) }
+        case 0x143da: pc = 82908; let e0 = resolve(.pre(8), 4); let value = get(e0, 4); let e1 = resolve(.reg(0), 4); put(e1, value, 4); logic(value, 4)
+        case 0x143dc: pc = 82912; let e0 = resolve(.immediate(word(82910)), 2); let value = get(e0, 2); let e1 = resolve(.status, 2); put(e1, value, 2)
+        case 0x143e0: pc = 82914; let e0 = resolve(.reg(0), 4); let source = get(e0, 4); let e1 = resolve(.reg(0), 4); let destination = get(e1, 4); _ = source; _ = destination; let value = add(destination, source, 4, extend: true); put(e1, value, 4)
+        case 0x143e2: pc = 82916; let e0 = resolve(.immediate(1), 4); let count = get(e0, 4); let e1 = resolve(.reg(7), 1); let value = shift(get(e1, 1), count, 1, 4); put(e1, value, 1)
+        case 0x143e4: pc = 82918; let e0 = resolve(.reg(0), 4); let source = get(e0, 4); let e1 = resolve(.reg(0), 4); let destination = get(e1, 4); _ = source; _ = destination; let value = add(destination, source, 4); put(e1, value, 4)
+        case 0x143e6: pc = 82920; if condition(6) { pc = (82920 + Int(sign(byte(82919), 1))) }
+        case 0x143e8: pc = 82922; let e0 = resolve(.pre(8), 4); let value = get(e0, 4); let e1 = resolve(.reg(0), 4); put(e1, value, 4); logic(value, 4)
+        case 0x143ea: pc = 82926; let e0 = resolve(.immediate(word(82924)), 2); let value = get(e0, 2); let e1 = resolve(.status, 2); put(e1, value, 2)
+        case 0x143ee: pc = 82928; let e0 = resolve(.reg(0), 4); let source = get(e0, 4); let e1 = resolve(.reg(0), 4); let destination = get(e1, 4); _ = source; _ = destination; let value = add(destination, source, 4, extend: true); put(e1, value, 4)
+        case 0x143f0: pc = 82930; let e0 = resolve(.immediate(1), 4); let count = get(e0, 4); let e1 = resolve(.reg(7), 1); let value = shift(get(e1, 1), count, 1, 4); put(e1, value, 1)
+        case 0x143f2: pc = 82932; let e0 = resolve(.reg(0), 4); let source = get(e0, 4); let e1 = resolve(.reg(0), 4); let destination = get(e1, 4); _ = source; _ = destination; let value = add(destination, source, 4); put(e1, value, 4)
+        case 0x143f4: pc = 82934; if condition(6) { pc = (82934 + Int(sign(byte(82933), 1))) }
+        case 0x143f6: pc = 82936; let e0 = resolve(.pre(8), 4); let value = get(e0, 4); let e1 = resolve(.reg(0), 4); put(e1, value, 4); logic(value, 4)
+        case 0x143f8: pc = 82940; let e0 = resolve(.immediate(word(82938)), 2); let value = get(e0, 2); let e1 = resolve(.status, 2); put(e1, value, 2)
+        case 0x143fc: pc = 82942; let e0 = resolve(.reg(0), 4); let source = get(e0, 4); let e1 = resolve(.reg(0), 4); let destination = get(e1, 4); _ = source; _ = destination; let value = add(destination, source, 4, extend: true); put(e1, value, 4)
+        case 0x143fe: pc = 82944; let e0 = resolve(.immediate(1), 4); let count = get(e0, 4); let e1 = resolve(.reg(7), 1); let value = shift(get(e1, 1), count, 1, 4); put(e1, value, 1)
+        default: fail("Untranslated game address")
+        }
+    }
+}

@@ -1,0 +1,58 @@
+// Generated 68000 game labels $011C00–$011CFF.
+extension LotusMachine {
+    func page11c() {
+        switch pc {
+        case 0x11c04: pc = 72710; r[0] = UInt32(bitPattern: sign(byte(72709), 1)); logic(r[0], 4)
+        case 0x11c06: pc = 72714; push(72714); pc = (72712 + Int(sign(word(72712), 2)))
+        case 0x11c0a: pc = 72718; push(72718); pc = (72716 + Int(sign(word(72716), 2)))
+        case 0x11c0e: pc = 72726; let e0 = resolve(.immediate(word(72720)), 2); let value = get(e0, 2); let e1 = resolve(.memory(Int(long(72722)) & 0xffffff), 2); put(e1, value, 2); logic(value, 2)
+        case 0x11c16: pc = 72734; let e0 = resolve(.immediate(word(72728)), 2); let value = get(e0, 2); let e1 = resolve(.memory(Int(long(72730)) & 0xffffff), 2); put(e1, value, 2); logic(value, 2)
+        case 0x11c1e: pc = 72742; let e0 = resolve(.immediate(word(72736)), 2); let value = get(e0, 2); let e1 = resolve(.memory(Int(long(72738)) & 0xffffff), 2); put(e1, value, 2); logic(value, 2)
+        case 0x11c26: pc = 72750; let e0 = resolve(.immediate(word(72744)), 2); let value = get(e0, 2); let e1 = resolve(.memory(Int(long(72746)) & 0xffffff), 2); put(e1, value, 2); logic(value, 2)
+        case 0x11c2e: pc = 72756; let e0 = resolve(.memory(Int(long(72752)) & 0xffffff), 2); put(e0, 0, 2); logic(0, 2)
+        case 0x11c34: pc = 72762; let e0 = resolve(.memory(Int(long(72758)) & 0xffffff), 2); put(e0, 0, 2); logic(0, 2)
+        case 0x11c3a: pc = 72766; push(72766); pc = (72764 + Int(sign(word(72764), 2)))
+        case 0x11c3e: pc = 72770; push(72770); pc = (72768 + Int(sign(word(72768), 2)))
+        case 0x11c42: pc = 72776; let e0 = resolve(.memory(Int(long(72772)) & 0xffffff), 2); logic(get(e0, 2), 2)
+        case 0x11c48: pc = 72778; if condition(7) { pc = (72778 + Int(sign(byte(72777), 1))) }
+        case 0x11c4a: pc = 72782; pc = (72780 + Int(sign(word(72780), 2)))
+        case 0x11c4e: pc = 72790; let e0 = resolve(.immediate(word(72784)), 2); let value = get(e0, 2); let e1 = resolve(.memory(Int(long(72786)) & 0xffffff), 2); put(e1, value, 2); logic(value, 2)
+        case 0x11c56: pc = 72798; let e0 = resolve(.immediate(word(72792)), 2); let value = get(e0, 2); let e1 = resolve(.memory(Int(long(72794)) & 0xffffff), 2); put(e1, value, 2); logic(value, 2)
+        case 0x11c5e: pc = 72804; let e0 = resolve(.memory(Int(long(72800)) & 0xffffff), 2); put(e0, 0, 2); logic(0, 2)
+        case 0x11c64: pc = 72810; let e0 = resolve(.memory(Int(long(72806)) & 0xffffff), 4); r[8] = UInt32(truncatingIfNeeded: e0.address)
+        case 0x11c6a: pc = 72814; let e0 = resolve(.reg(8), 4); let value = get(e0, 4); let e1 = resolve(.offset(14, Int(sign(word(72812), 2))), 4); put(e1, value, 4); logic(value, 4)
+        case 0x11c6e: pc = 72820; let e0 = resolve(.memory(Int(long(72816)) & 0xffffff), 2); put(e0, 0, 2); logic(0, 2)
+        case 0x11c74: pc = 72826; let e0 = resolve(.memory(Int(long(72822)) & 0xffffff), 2); put(e0, 0, 2); logic(0, 2)
+        case 0x11c7a: pc = 72830; push(72830); pc = (72828 + Int(sign(word(72828), 2)))
+        case 0x11c7e: pc = 72834; push(72834); pc = (72832 + Int(sign(word(72832), 2)))
+        case 0x11c82: pc = 72840; let e0 = resolve(.memory(Int(long(72836)) & 0xffffff), 2); logic(get(e0, 2), 2)
+        case 0x11c88: pc = 72842; if condition(6) { pc = (72842 + Int(sign(byte(72841), 1))) }
+        case 0x11c8a: pc = 72846; push(72846); pc = (72844 + Int(sign(word(72844), 2)))
+        case 0x11c8e: pc = 72850; push(72850); pc = (72848 + Int(sign(word(72848), 2)))
+        case 0x11c92: pc = 72854; push(72854); pc = (72852 + Int(sign(word(72852), 2)))
+        case 0x11c96: pc = 72856; r[0] = UInt32(bitPattern: sign(byte(72855), 1)); logic(r[0], 4)
+        case 0x11c98: pc = 72860; push(72860); pc = (72858 + Int(sign(word(72858), 2)))
+        case 0x11c9c: pc = 72864; pc = (72862 + Int(sign(word(72862), 2)))
+        case 0x11ca0: pc = 72872; let e0 = resolve(.immediate(long(72866)), 4); let value = get(e0, 4); let e1 = resolve(.memory(Int(UInt32(bitPattern: sign(word(72870), 2))) & 0xffffff), 4); put(e1, value, 4); logic(value, 4)
+        case 0x11ca8: pc = 72874; pc = Int(pop())
+        case 0x11caa: pc = 72882; let e0 = resolve(.memory(Int(long(72876)) & 0xffffff), 4); let value = get(e0, 4); let e1 = resolve(.memory(Int(UInt32(bitPattern: sign(word(72880), 2))) & 0xffffff), 4); put(e1, value, 4); logic(value, 4)
+        case 0x11cb2: pc = 72884; pc = Int(pop())
+        case 0x11cb4: pc = 72890; let e0 = resolve(.memory(Int(long(72886)) & 0xffffff), 4); let value = get(e0, 4); let e1 = resolve(.pre(15), 4); put(e1, value, 4); logic(value, 4)
+        case 0x11cba: pc = 72900; let e0 = resolve(.memory(Int(long(72892)) & 0xffffff), 4); let value = get(e0, 4); let e1 = resolve(.memory(Int(long(72896)) & 0xffffff), 4); put(e1, value, 4); logic(value, 4)
+        case 0x11cc4: pc = 72906; let e0 = resolve(.post(15), 4); let value = get(e0, 4); let e1 = resolve(.memory(Int(long(72902)) & 0xffffff), 4); put(e1, value, 4); logic(value, 4)
+        case 0x11cca: pc = 72916; let e0 = resolve(.memory(Int(long(72908)) & 0xffffff), 4); let value = get(e0, 4); let e1 = resolve(.memory(Int(long(72912)) & 0xffffff), 4); put(e1, value, 4); logic(value, 4)
+        case 0x11cd4: pc = 72918; pc = Int(pop())
+        case 0x11cd6: pc = 72924; let e0 = resolve(.memory(Int(long(72920)) & 0xffffff), 4); r[8] = UInt32(truncatingIfNeeded: e0.address)
+        case 0x11cdc: pc = 72926; r[7] = UInt32(bitPattern: sign(byte(72925), 1)); logic(r[7], 4)
+        case 0x11cde: pc = 72928; r[0] = UInt32(bitPattern: sign(byte(72927), 1)); logic(r[0], 4)
+        case 0x11ce0: pc = 72930; let e0 = resolve(.reg(0), 2); let value = get(e0, 2); let e1 = resolve(.post(8), 2); put(e1, value, 2); logic(value, 2)
+        case 0x11ce2: pc = 72934; if !condition(1) {     setRegister(7, r[7] &- 1, 2);     if r[7] & 65535 != 65535 { pc = (72932 + Int(sign(word(72932), 2))) } }
+        case 0x11ce6: pc = 72940; let e0 = resolve(.memory(Int(long(72936)) & 0xffffff), 2); put(e0, 0, 2); logic(0, 2)
+        case 0x11cec: pc = 72946; let e0 = resolve(.memory(Int(long(72942)) & 0xffffff), 4); r[8] = UInt32(truncatingIfNeeded: e0.address)
+        case 0x11cf2: pc = 72952; let e0 = resolve(.memory(Int(long(72948)) & 0xffffff), 2); let value = get(e0, 2); let e1 = resolve(.reg(0), 2); put(e1, value, 2); logic(value, 2)
+        case 0x11cf8: pc = 72954; let e0 = resolve(.reg(0), 2); let source = get(e0, 2); let e1 = resolve(.reg(0), 2); let destination = get(e1, 2); _ = source; _ = destination; let value = add(destination, source, 2); put(e1, value, 2)
+        case 0x11cfa: pc = 72962; let e0 = resolve(.indexed(8, 0, false, 0), 2); let value = get(e0, 2); let e1 = resolve(.memory(Int(long(72958)) & 0xffffff), 2); put(e1, value, 2); logic(value, 2)
+        default: fail("Untranslated game address")
+        }
+    }
+}
